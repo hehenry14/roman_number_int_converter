@@ -20,3 +20,8 @@ class TestRomanToInt(TestCase):
     def test_4(self):
         result = convert_roman_to_int('XI')
         self.assertEqual(result, 11)
+
+    def test_5(self):
+        result = convert_roman_to_int('')
+        self.assertEqual(result, 0)
+
