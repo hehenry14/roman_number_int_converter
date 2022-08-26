@@ -24,4 +24,3 @@ class TestRomanToInt(TestCase):
     def test_5(self):
         result = convert_roman_to_int('')
         self.assertEqual(result, 0)
-
